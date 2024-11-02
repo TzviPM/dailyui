@@ -8,7 +8,7 @@ import localFont from "next/font/local";
 import "./CreditCard.css";
 import Image from "next/image";
 import { Nfc } from "lucide-react";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 const ccFont = localFont({
   src: "./cc-font/subset-CreditCard.woff2",

@@ -1,0 +1,33 @@
+.cc-text {
+  background: repeating-linear-gradient(
+      rgb(161, 168, 174, 0.8) 0px,
+      rgb(243, 244, 241, 1) 20px,
+      rgb(243, 244, 241, 0.1) 50px,
+      rgb(236, 239, 246, 0.8) 50px,
+      rgb(161, 168, 174, 0.5) 60px
+    ),
+    repeating-linear-gradient(
+      -70deg,
+      rgb(54, 58, 51, 1) 4px,
+      rgb(110, 108, 99, 1) 6px,
+      rgb(110, 108, 99, 1) 18px,
+      rgb(54, 58, 51, 1) 20px
+    );
+  background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.chip-box {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    -45deg,
+    #ccc 0%,
+    #ccc 25%,
+    #fff 50%,
+    #ccc 75%,
+    #ccc 100%
+  );
+}
